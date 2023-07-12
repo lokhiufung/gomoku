@@ -2,6 +2,7 @@ from typing import List, Tuple
 
 from gomoku.board import Board
 from gomoku.action import Action
+from gomoku.color_print import *
 
 
 class GomokuEnv:
@@ -170,5 +171,5 @@ class GomokuEnv:
         output = ''
         for row in rows:
             output += ' '.join([char.center(2) for char in row]) + '\n'
-        print(output)
+        print_game_board(game_board=output)
 

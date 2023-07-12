@@ -1,5 +1,6 @@
 # Gomoku
 
+![gomoku-terminal](./gomoku-terminal.gif?raw=true "gomoku terminal")
 
 
 ## Rules
